@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ritesh | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .profile img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #ddd;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    .section {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .links a {
+      display: block;
+      color: #3498db;
+      text-decoration: none;
+      margin-bottom: 5px;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <header>
+    <div class="profile">
+      <img src="https://via.placeholder.com/100" alt="Profile Photo">
+      <div>
+        <h1>Ritesh</h1>
+        <p>Software Engineer Intern</p>
+        <p>Narela, New Delhi</p>
+      </div>
+    </div>
+    <div>
+      <p>Email: ritesh003528@gmail.com</p>
+      <p>Phone: +91 7982139321</p>
+    </div>
+  </header>
+
+  <div class="section">
+    <h2>Education</h2>
+    <ul>
+      <li>B.Tech (CSE), SRM University, Sonepat (2021–2025)</li>
+      <li>Higher Secondary – 75%, The Mann School (CBSE)</li>
+      <li>Secondary – 78%, The Mann School (CBSE)</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Technical Skills</h2>
+    <div class="grid">
+      <ul>
+        <li>C, C++, Java, Python</li>
+        <li>JavaScript</li>
+        <li>HTML, CSS, React, Bootstrap</li>
+      </ul>
+      <ul>
+        <li>DSA</li>
+        <li>DBMS</li>
+        <li>Computer Networks</li>
+        <li>Operating Systems</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Knock Knock:</strong> Responsive frontend website connecting users with professionals.</li>
+      <li><strong>Portfolio Website:</strong> Personal portfolio using HTML, CSS, JavaScript.</li>
+      <li><strong>Arduino Project:</strong> Built remote-controlled car & drone via mobile app.</li>
+      <li><strong>Hackathon Project:</strong> Led team to build real-time chat application.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Experience</h2>
+    <ul>
+      <li>Software Engineer Intern</li>
+      <li>Led team projects and collaborated in hackathons</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Gold Medalist – Interschool Science Exhibition</li>
+      <li>Silver Medalist – All India University Cricket</li>
+      <li>Gold Medalist – 10km Marathon</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Personal Skills</h2>
+    <ul>
+      <li>Leadership</li>
+      <li>Work under pressure</li>
+      <li>Management skills</li>
+      <li>Troubleshooting</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Hobbies</h2>
+    <ul>
+      <li>Gym</li>
+      <li>Cricket</li>
+      <li>Photography & Videography</li>
+      <li>Listening to Music</li>
+    </ul>
+  </div>
+
+  <div class="section links">
+    <h2>Links</h2>
+    <a href="#">Portfolio 1</a>
+    <a href="#">Portfolio 2</a>
+    <a href="#">LinkedIn</a>
+  </div>
+
+  <footer>
+    <p>© 2026 Ritesh | Portfolio</p>
+  </footer>
+
+</div>
+
+</body>
+</html>
